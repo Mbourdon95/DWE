@@ -1,0 +1,70 @@
+		/* Création du fond sur le html*/
+html{
+	color: #000;
+	background-color: white;
+	background-repeat: no-repeat;
+	z-index: 1;
+	background-image: url(BackNc1.jpg);
+	background-size: 110%;
+}
+body{
+	width: 100%;
+}	
+		/* Création du fond de la Première Division (avec le contenu)*/
+div#Content {
+	background-size: 100%;
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	background-color: #A8AFAE;
+}
+		/* Fond du Titre Principal et Du Footer*/
+p.title{
+	color:white;
+	text-decoration: underline white;
+}
+p.title1{
+	color:white;
+}
+		/* Création du fond pour le Premier Menu de Navigation*/
+nav.Navigation ol li a {
+	background-color: #A8AFAE;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	top:10px;
+	left: 1200px;
+}
+nav.Navigation ol li.Button {
+	list-style-type: none;
+	display: inline-block;
+}
+nav.Navigation ol li.Button:hover a{
+	color: black; 
+	background-color: #1fe0;
+	transition: 0.5s;
+}
+p.nP{
+	font-size: 30px;
+	padding-left: 20px;	
+	font-family: Gill Sans;
+}
+p.iP{
+	font-size: 20px;
+	font-family: Noto Sans;
+	padding-left: 10px;
+}
+div#Content2{
+	font-family: Noto Sans;
+	background-color: #323433;
+	z-index:3;
+	margin: auto;
+}
+img.BackNc1{
+	z-index:1;
+	width: 600px;
+}
+p.copy{
+	padding-left: 10px;
+	padding-top: 20px;
+	height: 67px;
+}

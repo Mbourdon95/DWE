@@ -1,0 +1,87 @@
+html {
+	background-image:url(BackSal.jpg);
+	background-repeat: no-repeat;
+	z-index: 1;
+	background-size: 100%;
+	background-color: white;
+	color: #000;
+}
+p.p1{
+	color: #000;
+	text-align: center;
+	font-family: Noto Sans;
+}
+h1.Ti1{
+	text-shadow:;
+	font-family:Gill sans; 	
+}
+h1.Ti{
+	text-align: center;
+	text-shadow:;
+	font-family:Gill sans;
+}
+h2.Ti{
+	text-align: center;
+	text-shadow: ;
+	font-family:Gill sans;
+}
+h3.Ti{
+	text-align: center;
+	text-shadow: ;
+	font-family:Gill sans;
+}
+nav.Navigation ol li.Button {
+	list-style-type: none;
+	display: inline-block;
+	padding: 75px;
+	border: thick double #000;
+	padding-bottom:25px;
+	padding-top:25px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align:center;
+}
+nav.Navigation ol li a{
+	text-decoration: none;
+	color: white;
+	background-color: #000;
+	padding: 25px; 
+}
+nav.Navigation ol li.Button:hover a{
+	color:black;
+	text-shadow:;
+	background-color: #1fe0;
+	transition: 0.5s;
+	border: thick double #000;
+}
+nav.Navigation2 ul li.Button2{
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+	padding-bottom: 20px; 
+	padding-left: 0px; 
+	padding-right: 0px;
+	padding-top: 20px;
+	border: thick double #000;
+	text-align: center;
+}
+nav.Navigation2 ul li a{
+	text-decoration: none;
+	color: white;
+	background-color: #000 ;
+	padding: 20px;
+}
+nav.Navigation2 ul li.Button2:hover a{
+	color:black;
+	text-shadow: ;
+	background-color: #1fe0;
+	transition: 0.5s;
+	border: thick double #000;
+}
+video{
+	outline: solid;
+}
+audio{
+	background-color: white;
+	outline: outset;
+}
